@@ -1,0 +1,170 @@
+/* form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+  }
+  
+
+  
+  input {
+    margin: 10px 0;
+  }
+  
+  button {
+    margin: 10px 0;
+  }
+  
+  /*icon styles */
+  #closed-eye {
+    cursor: pointer;
+  }
+  
+  #open-eye {
+    cursor: pointer;
+  }
+
+  #city {
+    display: none;
+  }
+
+  #lake {
+    display: block;
+  }
+
+.menu-el a {
+		color: white;
+font-size: 20px;
+font-family: "UrbaneDemiBold";
+	font-weight: 600;
+}
+
+/* body {
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+} */
+
+h1 {
+  font-size: calc(28px + (64 - 28) * ((100vw - 300px) / (1512 - 300)));
+}
+
+h3 {
+  font-size: calc(16px + (32 - 16) * ((100vw - 300px) / (1512 - 300)));
+}
+
+h3.soon {
+	text-align: center;
+	color: #fff;
+	font-weight: 400;
+  font-size: calc(16px + (32 - 16) * ((100vw - 300px) / (1512 - 300)));
+}
+
+/* for nature eye signup form */
+@media only screen and (max-width: 563px) {
+
+    div.needsclick.kl-private-reset-css-Xuajs1 {
+    display: block!important;
+  }
+    
+    input.needsclick.go2369610111.kl-private-reset-css-Xuajs1 {
+      width: 100%;
+    }
+      button.needsclick.go1548587668.kl-private-reset-css-Xuajs1
+  {
+        position: absolute!important;
+      left: 50%;
+      transform: translate(-50%, -50%)
+    }
+    
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  a.test-style-1 {
+    color: #0000FF;
+    }
+
+    a.test-style-1:active{
+      color: #ca1e06;
+      }
+
+      
+a.test-style-1 {
+color: #0000FF;
+text-decoration: underline;
+}
+a:active.test-style-1{
+color: #ca1e06!important;
+}
+a:visited.test-style-1{
+color: #036da9!important;
+}
+a:hover.test-style-1{
+color:  #0000FF!important;
+}
+a.test-style-2 {
+color: #0000FF;
+text-decoration: none;
+}
+a:active.test-style-2{
+color: #ca1e06!important;
+}
+a:visited.test-style-2{
+color: #5928ed!important;
+}
+a:hover.test-style-2{
+color:  #0000FF!important;
+text-decoration: underline!important;
+}
+a.test-style-3 {
+color: #054fb9;
+text-decoration: none;
+}
+a:active.test-style-3{
+color: #ca1e06!important;
+}
+a:visited.test-style-3{
+color: #5928ed!important;
+}
+a:hover.test-style-3{
+color:  #0073e6!important;
+text-decoration: underline!important;
+}
+
+body {
+  background:  url(./assets/images/cisty.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body:after {
+  background: linear-gradient(180deg, rgba(8, 25, 76, 0.70) 0%, rgba(8, 25, 76, 0.00) 50%), url(./assets/images/cityt.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.natureeye {
+  background-color: rgba(8, 25, 76, 0.30);
+}
+
+h4 {
+  font-size: 1.1vw;
+}
+.test-menu {
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+
+}
+.test {
+  font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (1512 - 320)));
+}
